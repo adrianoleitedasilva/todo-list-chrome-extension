@@ -32,14 +32,6 @@ ToDoList/
 ├── popup.css              # Estilos, incluindo o tema escuro
 ├── popup.js               # Lógica da lista e persistência
 ├── icons/                 # Ícones de 16, 32, 48 e 128 px
-├── store/                 # Material da Chrome Web Store (não vai no pacote)
-│   ├── LISTING.md         # Textos e respostas para o painel da loja
-│   ├── privacy-policy.html
-│   ├── assets/            # Capturas de tela, banners e ícone da loja
-│   ├── src/               # Páginas usadas para gerar as imagens
-│   ├── render.ps1         # Gera as imagens da loja
-│   └── build-zip.ps1      # Gera o pacote .zip
-└── dist/                  # Pacote gerado para envio
 ```
 
 ## Como funciona
