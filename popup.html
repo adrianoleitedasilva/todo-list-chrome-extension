@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>ToDo List</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header>
+    <h1>Minhas tarefas</h1>
+    <span id="counter" class="counter"></span>
+  </header>
+
+  <form id="new-task-form" autocomplete="off">
+    <input id="new-task-input" type="text" placeholder="O que precisa ser feito?" maxlength="200" autofocus>
+    <button type="submit" title="Adicionar">+</button>
+  </form>
+
+  <nav class="filters">
+    <button data-filter="all" class="active">Todas</button>
+    <button data-filter="pending">Pendentes</button>
+    <button data-filter="done">Concluídas</button>
+  </nav>
+
+  <ul id="task-list"></ul>
+  <p id="empty-state" class="empty" hidden>Nenhuma tarefa por aqui.</p>
+
+  <footer>
+    <span class="hint">Clique duas vezes para editar</span>
+    <button id="clear-done" class="link">Limpar concluídas</button>
+  </footer>
+
+  <script src="popup.js"></script>
+</body>
+</html>
