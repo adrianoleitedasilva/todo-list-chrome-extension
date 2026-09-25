@@ -2,8 +2,6 @@
 
 Extensão para o Google Chrome com uma lista de tarefas simples, que abre com um clique na barra de ferramentas. Sem cadastro e sem anúncios. As tarefas ficam salvas só no seu navegador.
 
-![Captura de tela da extensão](store/assets/screenshot-1.png)
-
 ## Funcionalidades
 
 - **Adicionar:** digite a tarefa e pressione Enter.
